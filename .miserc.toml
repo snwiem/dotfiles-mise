@@ -1,0 +1,7 @@
+env = ["default"]
+auto_env = true
+auto_install = true
+auto_update = false
+color = true
+color_theme = "default"
+default_config_filename = "mise.toml"
