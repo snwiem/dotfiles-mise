@@ -1,0 +1,11 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+# >>> mise:activate >>> managed by mise — do not edit between markers
+eval "$(mise activate bash --shims)"
+# <<< mise:activate <<<
