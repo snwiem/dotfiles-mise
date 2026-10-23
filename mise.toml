@@ -1,2 +1,5 @@
+min_version = "2026.10.17"
+
 [dotfiles]
 "~/.gitconfig" = { source = "config/git/config", mode = "template"}
+"~/.bashrc" = { source = "config/bash/bashrc" }

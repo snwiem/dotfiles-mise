@@ -2,6 +2,12 @@
 
 My central dotfiles repo based on mise-en-place.
 
+## Quickstart
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/snwiem/dotfiles-mise/refs/heads/main/bootstrap.sh | bash
+```
+
 ## References
 
 - https://mise.jdx.dev/
