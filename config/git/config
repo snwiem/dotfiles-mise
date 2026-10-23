@@ -1,0 +1,5 @@
+[user]
+	email = snwiem@mailbox.org
+	name = Sebastian Wiemer
+[init]
+	defaultBranch = main

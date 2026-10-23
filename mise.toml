@@ -1,0 +1,2 @@
+[dotfiles]
+"~/.gitconfig" = { source = "config/git/config", mode = "template"}
