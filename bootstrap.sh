@@ -2,7 +2,7 @@
 set -euo pipefail
 
 DOTFILES_REPO="${DOTFILES_REPO:-https://github.com/snwiem/dotfiles-mise.git}"
-SOURCE_DIR="$HOME/Source/dotfiles-mise"
+SOURCE_DIR="$HOME/.dotfiles"
 MISE_INSTALL_PATH="${MISE_INSTALL_PATH:-$HOME/.local/bin/mise}"
 MISE_INSTALL_SKIP_IF_EXISTS="${MISE_INSTALL_SKIP_IF_EXISTS:-1}"
 PROFILE="${PROFILE:-default}"
