@@ -3,9 +3,13 @@ min_version = "2026.10.17"
 [bootstrap.packages]
 "brew:jq" = "latest"
 
+[tools]
+"zoxide" = "latest"
+
 [dotfiles]
 "~/.gitconfig" = { source = "config/git/config", mode = "template" }
 "~/.bashrc" = { source = "config/bash/bashrc" }
 "~/.bash_profile" = { source = "config/bash/bash_profile" }
 "~/.zshrc" = { source = "config/zsh/zshrc" }
 "~/.zprofile" = { source = "config/zsh/zprofile" }
+"~/.config/mise/config.toml" = { source = "mise.toml", mode = "copy" }
